@@ -224,7 +224,6 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-
     box-sizing: border-box;
     margin-right: 10px;
 }
@@ -278,6 +277,12 @@ body {
     box-sizing: border-box;
 }
 
+.namesOfvisitors {
+    color: #989898;
+    margin: 15px;
+    display: block;
+}
+
 .text-about-comment {
     width: 385px;
     height: 121px;
@@ -291,6 +296,10 @@ body {
     line-height: 18px;
     padding: 16px 20px 0px 27px;
     color: #445162;
+}
+
+.text-about-product {
+    margin: 10px;
 }
 
 .text-about-comment:before {
@@ -317,7 +326,7 @@ body {
 
 .prices {
     width: 100%;
-    padding: 30px 145px 145px 145px;
+    padding: 30px 145px 30px 145px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -445,7 +454,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 1280px;
-    /* height: 509px; */
     padding: 50px;
     background-color: #445161;
 }
@@ -525,12 +533,9 @@ textarea[placeholder] {
     background-color: #ffffff;
 }
 
-.main-footer_form input[type="submit"]:active {
-    box-shadow: #445162;
-}
-
 .main-footer_form input[type="submit"]:hover {
     color: #ebebeb;
+    outline: none;
 }
 
 input[type="submit"] {
